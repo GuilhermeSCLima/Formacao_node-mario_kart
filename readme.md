@@ -108,7 +108,7 @@
 node src/index.js
 ```
 _Argumentos aceitos:_
-> -R [Quantidade de rounds/voltas] => Indica quantas voltas devem ser realizadas
+> -R [Quantidade de rounds/voltas] => Indica quantas voltas devem ser realizadas<br/>
 > -p2 => Indica que será um jogo PVP
 
 2. Jogadore(s) escolhe(m) o(s) personagem(ns)
