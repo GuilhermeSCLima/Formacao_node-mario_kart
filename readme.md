@@ -101,3 +101,19 @@
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+
+### 🏎️ Como Jogar:
+1. Iniciar o jogo:
+```
+node src/index.js
+```
+_Argumentos aceitos:_
+> -R [Quantidade de rounds/voltas] => Indica quantas voltas devem ser realizadas
+> -p2 => Indica que será um jogo PVP
+
+2. Jogadore(s) escolhe(m) o(s) personagem(ns)
+3. Uma pista é escolhida de forma aleatoria
+4. Jogador 1 deve apertar espaço para rodar o dado
+5. Jogador 2 (ou CPU) rodará o dado
+6. O jogador com mais pontos receberá um ponto na final, conforme as mecanicas acima
+7. Ao finalizar o computador calculará quem ganhou e mostrará o historico das voltas
